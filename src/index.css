@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    li {
+        @apply p-6
+    }
+
+    button {
+        @apply text-zinc-800 font-semibold bg-yellow-400 border-zinc-900 border-2 rounded-md
+        hover:bg-yellow-500 
+    }
+}
