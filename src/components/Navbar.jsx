@@ -13,7 +13,7 @@ export default function Navbar() {
         <div className="w-screen h-[80px] z-10 bg-yellow-50 fixed drop-shadow-md">
             <div className="px-2 flex justify-between items-center w-full h-full">
                 <div className="flex items-center">
-                    <h1 className="text-3xl font-bold mx-4 sm:text-4xl">My brand.</h1>
+                    <h1 className="text-2xl font-bold mx-4">My brand.</h1>
                     <ul className="hidden md:flex">
                         <li>Home</li>
                         <li>About</li>
@@ -22,13 +22,13 @@ export default function Navbar() {
                     </ul>
                 </div>
                 <div className="hidden md:flex pr-4">
-                    <button className="py-2 px-4 mx-6">Get started</button>
+                    <button>Get started</button>
                 </div>
                 <div className="md:hidden" onClick={handleClickNav}>
                     {!nav ? <MenuIcon className="w-6" /> : <XIcon className="w-6" />}
                 </div>
             </div>
-            <ul className={!nav ? "hidden" : "absolute bg-yellow-50 w-full px-8"}>
+            <ul className={!nav ? "hidden" : "absolute bg-yellow-50 w-full px-8 md:hidden"}>
                 <li className="border-b-2 border-yellow-200 w-full">Home</li>
                 <li className="border-b-2 border-yellow-200 w-full">About</li>
                 <li className="border-b-2 border-yellow-200 w-full">Services</li>
