@@ -24,7 +24,7 @@ export default function Navbar() {
                 <div className="hidden md:flex pr-4">
                     <button>Get started</button>
                 </div>
-                <div className="md:hidden" onClick={handleClickNav}>
+                <div className="md:hidden mr-4" onClick={handleClickNav}>
                     {!nav ? <MenuIcon className="w-6" /> : <XIcon className="w-6" />}
                 </div>
             </div>
