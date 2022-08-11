@@ -11,7 +11,7 @@ export default function Navbar() {
 
     return (
         <div className="w-screen h-[80px] z-10 bg-yellow-50 fixed drop-shadow-md">
-            <div className="px-2 flex justify-between items-center w-full h-full">
+            <div className="flex justify-between items-center px-4 w-full h-full">
                 <div className="flex items-center">
                     <h1 className="text-2xl font-bold mx-4">My brand.</h1>
                     <ul className="hidden md:flex">
@@ -21,7 +21,7 @@ export default function Navbar() {
                         <li className="font-sans">Pricing</li>
                     </ul>
                 </div>
-                <div className="hidden md:flex pr-4">
+                <div className="hidden md:flex pr-4 mr-4">
                     <button>Get started</button>
                 </div>
                 <div className="md:hidden mr-4" onClick={handleClickNav}>
