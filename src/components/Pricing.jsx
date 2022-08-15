@@ -4,13 +4,15 @@ import { CheckIcon, XIcon } from '@heroicons/react/outline';
 export default function Pricing() {
     return (
         <main name='pricing' className='w-full text-white my-32'>
-            <div className='w-full h-[800px] bg-slate-800 absolute mix-blend-overlay'>
-                <div className='max-w-[1280px] mx-auto py-12'>
+            <div className='w-full h-[800px] bg-slate-800 absolute mix-blend-overlay'></div>
+
+            <div className='max-w-[1280px] mx-auto py-12'>
                     <div className='text-center py-8 text-slate-300'>
                         <h3 className='font-sans font-light text-3xl uppercase'>Pricing</h3>
                         <h1 className='text-5xl font-bold text-white py-8'>Here are our alternatives for your budget</h1>
                         <p className='font-sans text-2xl'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deserunt blanditiis, temporibus aliquid hic ex quia repellat similique voluptas aperiam sequi.</p>
                     </div>
+
                     <section className='grid md:grid-cols-3'>
                         <div className='m-2 p-8 h-auto bg-white text-slate-800 rounded-xl shadow-2xl relative'>
                             <span className='px-4 py-1 bg-yellow-200 text-yellow-800 rounded-2xl font-sans font-semibold text-sm uppercase'>Standard</span>
@@ -59,7 +61,6 @@ export default function Pricing() {
                         </div>
                     </section>
                 </div>
-            </div>
         </main>
     )
 };

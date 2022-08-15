@@ -4,7 +4,7 @@ import { FiMail } from 'react-icons/fi';
 
 export default function Footer() {
     return (
-        <main className='w-full my-32 bg-slate-900 text-slate-300 p-2'>
+        <main className='w-full mt-32 bg-slate-900 text-slate-300 p-2'>
             <section className='max-w-[1280px] mx-auto grid grid-cols-2 md:grid-cols-6 border-b-2 border-gray-600 py-8'>
                 <div>
                     <h1 className='font-sans font-bold text-md uppercase pt-2'>Solutions</h1>
