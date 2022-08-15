@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function About() {
     return (
-        <main className='w-full my-32'>
+        <main name='about' className='w-full my-32'>
             <div className='max-w-[1280px] mx-auto'>
                 <section className='text-center'>
                     <h1 className='text-5xl font-bold'>Trusted by +1000 users across the world</h1>
