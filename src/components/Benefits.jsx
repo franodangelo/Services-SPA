@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { CheckIcon } from '@heroicons/react/outline';
 
 export default function Benefits() {
@@ -12,30 +11,38 @@ export default function Benefits() {
                     Nihil nisi reprehenderit tempora. Nemo inventore sint suscipit reprehenderit, illo ea quos sed veritatis adipisci excepturi ipsam vero eligendi voluptatem molestiae animi voluptatibus molestias iusto maxime laboriosam? Vitae, voluptatem illum?
                     Ullam, corrupti expedita ex laborum quia numquam repellendus possimus qui minus reprehenderit doloremque soluta amet. Optio error voluptate officiis vero quas veniam nisi? Veniam beatae recusandae numquam unde ratione adipisci!</p>
             </div>
-            <section className='grid sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4'>
+            <section className='grid sm:grid-cols-2 lg:grid-cols-4 px-4 gap-4 pt-4'>
                 <div className='flex'>
-                    <CheckIcon className='w-7 mr-4 text-green-600' />
+                    <div>
+                        <CheckIcon className='w-7 mr-2 text-green-600' />
+                    </div>
                     <div>
                         <h2 className='font-sans font-bold text-xl text-slate-500'>Notifications</h2>
                         <p className='text-lg pt-2 pb-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ad provident soluta modi, harum quidem et autem nulla vero voluptate ipsum, error praesentium beatae nihil accusantium molestiae ipsa deleniti nemo?</p>
                     </div>
                 </div>
                 <div className='flex'>
-                    <CheckIcon className='w-7 mr-4 text-green-600' />
+                    <div>
+                        <CheckIcon className='w-7 mr-2 text-green-600' />
+                    </div>
                     <div>
                         <h2 className='font-sans font-bold text-xl text-slate-500'>Notifications</h2>
                         <p className='text-lg pt-2 pb-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ad provident soluta modi, harum quidem et autem nulla vero voluptate ipsum, error praesentium beatae nihil accusantium molestiae ipsa deleniti nemo?</p>
                     </div>
                 </div>
                 <div className='flex'>
-                    <CheckIcon className='w-7 mr-4 text-green-600' />
+                    <div>
+                        <CheckIcon className='w-7 mr-2 text-green-600' />
+                    </div>
                     <div>
                         <h2 className='font-sans font-bold text-xl text-slate-500'>Notifications</h2>
                         <p className='text-lg pt-2 pb-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ad provident soluta modi, harum quidem et autem nulla vero voluptate ipsum, error praesentium beatae nihil accusantium molestiae ipsa deleniti nemo?</p>
                     </div>
                 </div>
                 <div className='flex'>
-                    <CheckIcon className='w-7 mr-4 text-green-600' />
+                    <div>
+                        <CheckIcon className='w-7 mr-2 text-green-600' />
+                    </div>
                     <div>
                         <h2 className='font-sans font-bold text-xl text-slate-500'>Notifications</h2>
                         <p className='text-lg pt-2 pb-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ad provident soluta modi, harum quidem et autem nulla vero voluptate ipsum, error praesentium beatae nihil accusantium molestiae ipsa deleniti nemo?</p>

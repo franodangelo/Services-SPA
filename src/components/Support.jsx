@@ -1,10 +1,9 @@
 import React from 'react';
-
 import { PhoneIcon, ChipIcon, FingerPrintIcon, ArrowSmRightIcon } from '@heroicons/react/outline';
 
 export default function Support() {
     return (
-        <main className='w-full h-screen mt-24'>
+        <main className='w-full mt-24'>
             <div className='w-full h-[700px] bg-gray-900/90 absolute'>
                 <img className='w-full h-full object-cover mix-blend-overlay' src="" alt="/" />
             </div>
