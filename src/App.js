@@ -3,6 +3,8 @@ import Hero from './components/Hero';
 import About from './components/About';
 import Support from './components/Support';
 import Benefits from './components/Benefits';
+import Pricing from './components/Pricing';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <About/>
       <Support/>
       <Benefits/>
+      <Pricing/>
+      <Footer/>
     </>
   );
 };
