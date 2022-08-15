@@ -20,11 +20,11 @@ export default function Navbar() {
                 <div className="flex items-center">
                     <h1 className="text-2xl font-bold mx-4">My brand.</h1>
                     <ul className="hidden md:flex">
-                        <li className="font-sans cursor-pointer hover:text-amber-500 hover:font-bold hover:ease-in duration-150"><Link to="home" smooth={true} offset={-150} duration={1000}>Home</Link></li>
-                        <li className="font-sans cursor-pointer hover:text-amber-500 hover:font-bold hover:ease-in duration-150"><Link to="about" smooth={true} offset={-220} duration={1000}>About</Link></li>
-                        <li className="font-sans cursor-pointer hover:text-amber-500 hover:font-bold hover:ease-in duration-150"><Link to="support" smooth={true} offset={-40} duration={1000}>Support</Link></li>
-                        <li className="font-sans cursor-pointer hover:text-amber-500 hover:font-bold hover:ease-in duration-150"><Link to="benefits" smooth={true} offset={-100} duration={1000}>Benefits</Link></li>
-                        <li className="font-sans cursor-pointer hover:text-amber-500 hover:font-bold hover:ease-in duration-150"><Link to="pricing" smooth={true} offset={-50} duration={1000}>Pricing</Link></li>
+                        <li className="font-sans cursor-pointer hover:text-amber-400 hover:font-bold hover:ease-in duration-150"><Link to="home" smooth={true} offset={-150} duration={1000}>Home</Link></li>
+                        <li className="font-sans cursor-pointer hover:text-amber-400 hover:font-bold hover:ease-in duration-150"><Link to="about" smooth={true} offset={-220} duration={1000}>About</Link></li>
+                        <li className="font-sans cursor-pointer hover:text-amber-400 hover:font-bold hover:ease-in duration-150"><Link to="support" smooth={true} offset={-40} duration={1000}>Support</Link></li>
+                        <li className="font-sans cursor-pointer hover:text-amber-400 hover:font-bold hover:ease-in duration-150"><Link to="benefits" smooth={true} offset={-100} duration={1000}>Benefits</Link></li>
+                        <li className="font-sans cursor-pointer hover:text-amber-400 hover:font-bold hover:ease-in duration-150"><Link to="pricing" smooth={true} offset={-50} duration={1000}>Pricing</Link></li>
                     </ul>
                 </div>
                 <div className="hidden md:flex pr-4 mr-4">

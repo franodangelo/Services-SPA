@@ -30,7 +30,7 @@ export default function Footer() {
                         <h2 className='py-1'>About</h2>
                         <h2 className='py-1'>Blog</h2>
                         <h2 className='py-1'>Jobs</h2>
-                        <h2 className='py-1'>Ch2ents</h2>
+                        <h2 className='py-1'>Clients</h2>
                     </div>
                 </div>
                 <div>
@@ -46,17 +46,17 @@ export default function Footer() {
                     <h1 className='font-bold uppercase'>Subscribe to our newsletter</h1>
                     <p className='py-4 font-sans'>The latest news, articles and resources, sent to your inbox weekly.</p>
                     <form className='flex flex-col sm:flex-row'>
-                        <input className='w-full p-2 mr-4 mb-4 rounded-md caret-amber-400' type="email" placeholder='Enter email' />
+                        <input className='w-full p-2 mr-4 mb-4 rounded-md' type="email" placeholder='Enter email' />
                         <button className='mb-4'>Subscribe</button>
                     </form>
                 </div>
             </section>
             <section className='flex flex-col max-w-[1280px] mx-auto px-2 py-4 justify-between sm:flex-row text-center text-slate-500'>
-                <h1 className='py-4'>Franco D'Angelo - 2022. All rights reserved</h1>
+                <h1 className='py-4 text-amber-400'>Franco D'Angelo - 2022. All rights reserved</h1>
                 <div className='flex justify-between sm:w-[300px] pt-4 text-2xl'>
-                    <FiMail className='w-7 h-7 p-2 mx-2 bg-amber-400 text-white rounded-2xl' />
-                    <a href='https://www.linkedin.com/in/franco-dangelo/'><FaLinkedin className='w-7 h-7 p-2 mx-2 bg-amber-400 text-white rounded-2xl cursor-pointer' /></a>
-                    <a href='https://github.com/franodangelo'><FaGithub className='w-7 h-7 p-2 mx-2 bg-amber-400 text-white rounded-2xl cursor-pointer' /></a>
+                    <FiMail className='w-8 h-8 p-2 mx-2 bg-amber-400 text-slate-900 rounded-3xl' />
+                    <a href='https://www.linkedin.com/in/franco-dangelo/'><FaLinkedin className='w-8 h-8 p-2 mx-2 bg-amber-400 text-slate-900 rounded-2xl cursor-pointer' /></a>
+                    <a href='https://github.com/franodangelo'><FaGithub className='w-8 h-8 p-2 mx-2 bg-amber-400 text-slate-900 rounded-2xl cursor-pointer' /></a>
                 </div>
             </section>
         </main>
