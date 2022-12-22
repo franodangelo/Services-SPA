@@ -11,11 +11,11 @@ export default function Hero() {
                     <p className="w-[75%] font-sans text-lg md:text-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt reprehenderit impedit iste ad labore alias consequatur?</p>
                     <button className="w-full md:w-[75%] lg:w-[60] xl:w-[50%] mt-4">Get started</button>
                 </div>
-                <img className="basis-1/3 w-full h-full object-cover" src={bgImg} alt="Services illustration" />
+                <img className="basis-1/3 w-full h-full mt-4 md:mt-0 object-cover" src={bgImg} alt="Services illustration" />
             </section>
-            <section className="w-[50%] mt-16 p-4 text-center rounded-xl bg-white shadow-lg">
+            <section className="flex flex-col w-[80%] sm:w-[75%] lg:w-[65%] xl:w-[50%] mt-16 p-4 gap-4 text-center rounded-xl bg-white shadow-lg">
                 <h3 className="font-sans text-2xl">Our works</h3>
-                <div className="flex flex-wrap justify-around">
+                <div className="grid grid-cols-2 sm:grid-cols-4 justify-around">
                     <h4 className="flex px-4 py-2 gap-2 text-slate-600">
                         <AcademicCapIcon className="w-6 h-6 text-amber-400" />Service
                     </h4>
