@@ -20,20 +20,22 @@ export default function Navbar() {
                             </Link>
                         </li>
                         <li className="font-sans cursor-pointer hover:text-amber-400 hover:font-bold hover:ease-in duration-150">
-                            <Link to="about" smooth={true} offset={-220} duration={1000}>About</Link>
+                            <Link to="about" smooth={true} duration={1000}>About</Link>
                         </li>
                         <li className="font-sans cursor-pointer hover:text-amber-400 hover:font-bold hover:ease-in duration-150">
-                            <Link to="support" smooth={true} offset={-40} duration={1000}>Support</Link>
+                            <Link to="support" smooth={true} duration={1000}>Support</Link>
                         </li>
                         <li className="font-sans cursor-pointer hover:text-amber-400 hover:font-bold hover:ease-in duration-150">
-                            <Link to="benefits" smooth={true} offset={-100} duration={1000}>Benefits</Link>
+                            <Link to="benefits" smooth={true} duration={1000}>Benefits</Link>
                         </li>
                         <li className="font-sans cursor-pointer hover:text-amber-400 hover:font-bold hover:ease-in duration-150">
-                            <Link to="pricing" smooth={true} offset={-50} duration={1000}>Pricing</Link>
+                            <Link to="pricing" smooth={true} duration={1000}>Pricing</Link>
                         </li>
                     </ul>
                 </section>
-                <button className="hidden md:flex">Get started</button>
+                <Link to="pricing" smooth={true} duration={1000}>
+                    <button className="hidden md:flex">Get started</button>
+                </Link>
                 {!nav ?
                     <MenuIcon onClick={handleNav} className="w-6 cursor-pointer md:hidden" /> :
                     <XIcon onClick={handleNav} className="w-6 cursor-pointer md:hidden" />
@@ -42,16 +44,16 @@ export default function Navbar() {
             <div className={!nav ? "hidden" : "absolute bg-white w-full px-10 py-6 md:hidden"}>
                 <ul className="flex flex-col gap-6">
                     <li className="pb-2 border-b-2 border-amber-200 font-sans font-medium cursor-pointer">
-                        <Link onClick={handleNav} to="home" smooth={true} offset={-150} duration={1000}>Home</Link>
+                        <Link onClick={handleNav} to="home" smooth={true} duration={1000}>Home</Link>
                     </li>
                     <li className="pb-2 border-b-2 border-amber-200 font-sans font-medium cursor-pointer">
-                        <Link onClick={handleNav} to="about" smooth={true} offset={-220} duration={1000}>About</Link>
+                        <Link onClick={handleNav} to="about" smooth={true} duration={1000}>About</Link>
                     </li>
                     <li className="pb-2 border-b-2 border-amber-200 font-sans font-medium cursor-pointer">
-                        <Link onClick={handleNav} to="support" smooth={true} offset={-40} duration={1000}>Support</Link>
+                        <Link onClick={handleNav} to="support" smooth={true} duration={1000}>Support</Link>
                     </li>
                     <li className="pb-2 border-b-2 border-amber-200 font-sans font-medium cursor-pointer">
-                        <Link onClick={handleNav} to="benefits" smooth={true} offset={-100} duration={1000}>Benefits</Link>
+                        <Link onClick={handleNav} to="benefits" smooth={true} duration={1000}>Benefits</Link>
                     </li>
                     <li className="pb-2 border-b-2 border-amber-200 font-sans font-medium cursor-pointer">
                         <Link onClick={handleNav} to="pricing" smooth={true} offset={-50} duration={1000}>Pricing</Link>
