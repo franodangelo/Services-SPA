@@ -2,7 +2,7 @@ import { CheckIcon } from "@heroicons/react/outline";
 
 export default function Benefits() {
     return (
-        <main name="benefits" className="w-full py-16 sm:py-20 md:py-24 lg:py-32 px-10 md:px-16 lg:px-20">
+        <main name="benefits" className="w-full py-[120px] md:py-32 px-10 md:px-16 lg:px-20">
             <h1 className="py-2 md:py-4 lg:py-6 font-bold text-3xl md:text-5xl text-center">Benefits when working with us!</h1>
             <p className="py-2 md:py-4 font-sans text-lg md:text-2xl md:text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid facere incidunt odit, repudiandae cupiditate autem quibusdam iusto atque in nulla et dolorem. Porro delectus sunt enim non. Odio, dolor. Excepturi. Ut nam, pariatur magni aperiam at dolor reiciendis dolores voluptatem! At nam modi harum! </p>
             <section className="grid sm:grid-cols-2 xl:grid-cols-4 mt-8 gap-8 md:gap-4">

@@ -1,4 +1,5 @@
 import { AcademicCapIcon, DatabaseIcon, ServerIcon, PaperAirplaneIcon } from "@heroicons/react/solid";
+import { Link } from "react-scroll";
 import bgImg from "../assets/landing-bg.svg";
 
 export default function Hero() {
@@ -9,7 +10,9 @@ export default function Hero() {
                     <h4 className="font-sans font-light text-md md:text-base">Eveniet non ab laudantium, temporibus animi.</h4>
                     <h1 className="font-bold text-3xl md:text-4xl lg:text-5xl xl:text-6xl uppercase">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
                     <p className="w-[75%] font-sans text-lg md:text-xl">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt reprehenderit impedit iste ad labore alias consequatur?</p>
-                    <button className="w-full md:w-[75%] lg:w-[60] xl:w-[50%] mt-4">Get started</button>
+                    <Link to="pricing" smooth={true} duration={1000}>
+                        <button className="w-full md:w-[75%] lg:w-[60] xl:w-[50%] mt-4">See our plans</button>
+                    </Link>
                 </div>
                 <img className="basis-1/3 w-full h-full mt-4 md:mt-0 object-cover" src={bgImg} alt="Services illustration" />
             </section>
