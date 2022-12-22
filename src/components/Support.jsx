@@ -3,8 +3,8 @@ import { PhoneIcon, ChipIcon, FingerPrintIcon, ArrowSmRightIcon } from "@heroico
 export default function Support() {
     return (
         <main name="support" className="w-full py-16 sm:py-20 md:py-24 lg:py-32 px-10 md:px-16 lg:px-20 bg-slate-800 text-white">
-            <h1 className="py-2 md:py-4 lg:py-6 font-bold text-3xl md:text-5xl text-center">Need support?</h1>
-            <p className="py-2 md:py-4 font-sans text-lg md:text-2xl md:text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum quis pariatur eveniet beatae, voluptates esse inventore enim impedit ipsam soluta maiores quibusdam id repellat obcaecati sit incidunt dicta, blanditiis nemo!</p>
+            <h1 className="py-2 md:py-4 lg:py-6 font-bold text-3xl md:text-5xl">Need support?</h1>
+            <p className="py-2 md:py-4 font-sans text-lg md:text-2xl">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum quis pariatur eveniet beatae, voluptates esse inventore enim impedit ipsam soluta maiores quibusdam id repellat obcaecati sit incidunt dicta, blanditiis nemo!</p>
             <div className="grid grid-cols-1 lg:grid-cols-3 mt-16 gap-16 lg:gap-6">
                 <div className="bg-white rounded-xl shadow-2xl">
                     <div className="p-8">
