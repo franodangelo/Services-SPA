@@ -33,7 +33,7 @@ export default function Pricing() {
                             <XIcon className="w-8 md:w-10 mr-2 text-red-600" />Lorem ipsum dolor sit.
                         </h4>
                     </div>
-                    <button className="w-full">Get Started</button>
+                    <button className="w-full">Start Standard plan</button>
                 </div>
                 <div className="flex flex-col h-auto p-8 justify-between rounded-xl bg-white text-slate-800 shadow-2xl">
                     <span className="w-fit px-2 py-1 bg-slate-600 rounded-xl font-sans font-semibold text-sm text-amber-400 uppercase">Pro</span>
@@ -55,7 +55,7 @@ export default function Pricing() {
                         <h4 className="flex mb-8 items-center">
                             <XIcon className="w-8 md:w-10 mr-2 text-red-600" />Lorem ipsum dolor sit.</h4>
                     </div>
-                    <button className="w-full">Get Started</button>
+                    <button className="w-full">Start Pro plan</button>
                 </div>
                 <div className="flex flex-col h-auto p-8 justify-between rounded-xl bg-white text-slate-800 shadow-2xl">
                     <span className="w-fit px-2 py-1 bg-slate-100 rounded-xl border border-slate-400 font-sans font-semibold text-sm text-slate-500 uppercase">Enterprise</span>
@@ -77,7 +77,7 @@ export default function Pricing() {
                         <h4 className="flex mb-8 items-center">
                             <CheckIcon className="w-8 md:w-10 mr-2 text-green-600" />Lorem ipsum dolor sit.</h4>
                     </div>
-                    <button className="w-full">Get Started</button>
+                    <button className="w-full">Start Enterprise plan</button>
                 </div>
             </section>
         </main>
