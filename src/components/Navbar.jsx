@@ -13,10 +13,11 @@ export default function Navbar() {
         <nav className="fixed w-screen h-20 z-10 bg-white shadow-md transition-all">
             <div className="flex w-full h-full px-10 md:px-16 lg:px-20 justify-between items-center">
                 <section className="flex items-center gap-6">
-                    <h1 className="font-bold text-2xl">My brand.</h1>
-                    <ul className="hidden md:flex gap-6">
+                    <ul className="hidden md:flex gap-6 items-center">
                         <li className="font-sans cursor-pointer hover:text-amber-400 hover:font-bold hover:ease-in duration-150">
-                            <Link to="home" smooth={true} offset={-150} duration={1000}>Home</Link>
+                            <Link to="home" smooth={true} offset={-150} duration={1000}>
+                                <h1 className="font-bold text-2xl">My brand.</h1>
+                            </Link>
                         </li>
                         <li className="font-sans cursor-pointer hover:text-amber-400 hover:font-bold hover:ease-in duration-150">
                             <Link to="about" smooth={true} offset={-220} duration={1000}>About</Link>
